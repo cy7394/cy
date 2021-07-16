@@ -16,3 +16,6 @@ console.log(c)
 
 let d=9
 console.log(10)
+
+let e=10
+console.log(e)
