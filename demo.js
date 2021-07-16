@@ -13,3 +13,6 @@ console.log(b)
 
 let c=10
 console.log(c)
+
+let d=9
+console.log(10)
