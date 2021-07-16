@@ -10,3 +10,6 @@ for(let i=0;i<10;i++){
 // 测试
 let b=20
 console.log(b)
+
+let c=10
+console.log(c)
