@@ -4,6 +4,7 @@ export default defineConfig({
   title: "前端技术学习",
 
   themeConfig: {
+    lastUpdatedText: "最后更新时间",
     docFooter: {
       prev: "上一页",
       next: "下一页",
