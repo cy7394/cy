@@ -31,6 +31,7 @@ export default defineConfig({
             { text: "img元素", link: "/html/4-img元素" },
             { text: "超链接a元素", link: "/html/5-超链接a元素" },
             { text: "高阶文字排版", link: "/html/6-高阶文字排版" },
+            { text: "文档与网站架构", link: "/html/7-文档与网站架构" },
           ],
         },
       ],
