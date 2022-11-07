@@ -55,6 +55,14 @@ export default defineConfig({
               text: "了解多媒体与嵌入",
               link: "/html/多媒体与嵌入/1-了解多媒体与嵌入",
             },
+            {
+              text: "html中的图片",
+              link: "/html/多媒体与嵌入/2-html中的图片",
+            },
+            {
+              text: "视频和音频内容",
+              link: "/html/多媒体与嵌入/3-视频和音频内容",
+            },
           ],
         },
 
