@@ -31,6 +31,15 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "框架与工具",
+        items: [
+          {
+            text: "git",
+            link: "/框架与工具/git/1-配置ssh",
+          },
+        ],
+      },
     ],
     sidebar: {
       "/html": [
@@ -96,6 +105,22 @@ export default defineConfig({
             {
               text: "数组方法",
               link: "/javascript/javascript第一步/7-数组方法",
+            },
+          ],
+        },
+      ],
+      "/框架与工具/": [
+        {
+          text: "git",
+          collapsible: true,
+          items: [
+            {
+              text: "配置ssh",
+              link: "/框架与工具/git/1-配置ssh",
+            },
+            {
+              text: "修改远程仓库地址",
+              link: "/框架与工具/git/2-修改远程仓库地址",
             },
           ],
         },
