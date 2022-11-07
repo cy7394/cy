@@ -41,10 +41,9 @@ export default defineConfig({
             { text: "了解html", link: "/html/html介绍/1-了解html" },
             { text: "head详解", link: "/html/html介绍/2-head详解" },
             { text: "常用的html元素", link: "/html/html介绍/3-常用的html元素" },
-            { text: "img元素", link: "/html/html介绍/4-img元素" },
-            { text: "超链接a元素", link: "/html/html介绍/5-超链接a元素" },
-            { text: "高阶文字排版", link: "/html/html介绍/6-高阶文字排版" },
-            { text: "文档与网站架构", link: "/html/html介绍/7-文档与网站架构" },
+            { text: "超链接a元素", link: "/html/html介绍/4-超链接a元素" },
+            { text: "高阶文字排版", link: "/html/html介绍/5-高阶文字排版" },
+            { text: "文档与网站架构", link: "/html/html介绍/6-文档与网站架构" },
           ],
         },
         {
