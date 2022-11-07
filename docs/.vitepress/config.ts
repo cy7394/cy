@@ -17,7 +17,7 @@ export default defineConfig({
           { text: "html介绍", link: "/html/html介绍/1-了解html" },
           {
             text: "多媒体与嵌入",
-            link: "/html/多媒体与嵌入/1-了解多媒体与嵌入",
+            link: "/html/多媒体与嵌入/1-了解多媒体",
           },
           { text: "html表格", link: "/html/html表格/1-了解表格" },
         ],
@@ -60,16 +60,12 @@ export default defineConfig({
           collapsible: true,
           items: [
             {
-              text: "了解多媒体与嵌入",
-              link: "/html/多媒体与嵌入/1-了解多媒体与嵌入",
+              text: "了解多媒体",
+              link: "/html/多媒体与嵌入/1-了解多媒体",
             },
             {
-              text: "html中的图片",
-              link: "/html/多媒体与嵌入/2-html中的图片",
-            },
-            {
-              text: "视频和音频内容",
-              link: "/html/多媒体与嵌入/3-视频和音频内容",
+              text: "了解iframe",
+              link: "/html/多媒体与嵌入/2-了解iframe",
             },
           ],
         },
