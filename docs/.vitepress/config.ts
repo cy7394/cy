@@ -35,6 +35,10 @@ export default defineConfig({
         text: "框架与工具",
         items: [
           {
+            text: "微信小程序",
+            link: "/框架与工具/微信小程序/1-获取手机号",
+          },
+          {
             text: "git",
             link: "/框架与工具/git/1-配置ssh",
           },
@@ -125,6 +129,16 @@ export default defineConfig({
             {
               text: "修改远程仓库地址",
               link: "/框架与工具/git/2-修改远程仓库地址",
+            },
+          ],
+        },
+        {
+          text: "微信小程序",
+          collapsible: true,
+          items: [
+            {
+              text: "获取手机号",
+              link: "/框架与工具/微信小程序/1-获取手机号",
             },
           ],
         },
