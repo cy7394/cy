@@ -415,3 +415,16 @@
   --vp-badge-danger-border: var(--vp-c-red-dimm-2);
   --vp-badge-danger-text: var(--vp-c-red-light);
 }
+
+/* ---------------自定义样式区域---------------- */
+.custom-block.info {
+  background-color: var(--vp-c-white);
+}
+
+.custom-block-title {
+  display: none;
+}
+
+.custom-block {
+  padding: 8px 16px;
+}

@@ -5,42 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 70vh;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
-    <div>
-      <table>
-        <caption>
-          学生名单
-        </caption>
+    <table>
+      <thead>
         <tr>
-          <th>姓名</th>
-          <th>年龄</th>
-          <th>性别</th>
+          <th scope="col">姓名</th>
+          <th scope="col">年龄</th>
+          <th scope="col">性别</th>
         </tr>
+      </thead>
+
+      <tbody>
         <tr>
-          <td>曹馨</td>
+          <th scope="row">曹馨</th>
           <td>22</td>
           <td>女</td>
         </tr>
-        <tr>
-          <td>曹珂</td>
-          <td>23</td>
-          <td>男</td>
-        </tr>
-        <tr>
-          <td>曹雅</td>
-          <td>21</td>
-          <td>女</td>
-        </tr>
-      </table>
-    </div>
+      </tbody>
+    </table>
   </body>
 </html>
