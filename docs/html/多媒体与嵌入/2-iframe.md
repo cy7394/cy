@@ -17,22 +17,6 @@
 </iframe>
 ```
 
-::: info 页面效果：
-
-<iframe
-  src="https://www.bilibili.com/"
-  width="650"
-  height="400"
-  frameborder="0"
->
-  <p>
-    <a href="https://www.bilibili.com/"
-      >由于浏览器不支持iframe，点击此处跳转到b站</a
-    >
-  </p>
-</iframe>
-:::
-
 ## allowfullscreen
 
 如果设置，`<iframe>`则可以通过全屏 api 设置为全屏模式
