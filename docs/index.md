@@ -2,20 +2,14 @@
 layout: home
 
 hero:
-  name: Web Study
-  text: caoyang's blog.
-  tagline: let's begin...
-
-
+  name: Web学习
+  tagline: 好好学习，天天向上！
 
 features:
-  - icon: ⚡️
-    title: Learn fast
-    details: The content is clear and easy to understand
-  - icon: 🖖
-    title: Remember well
-    details: You can always look at it if you forget something
-  - icon: 🛠️
-    title: Knowledge more
-    details: There's a lot of front-end knowledge here
+  - icon:
+    title: 网站内容
+    details: 关于html、css、js以及vue等前端知识的学习笔记
+  - icon:
+    title: 网站作者
+    details: 一个喜欢唱歌的00后魔羯座女孩
 ---
