@@ -26,8 +26,12 @@ export default defineConfig({
         text: "javascript",
         items: [
           {
-            text: "javascript第一步",
-            link: "/javascript/javascript第一步/1-了解javascript",
+            text: "javascript笔记",
+            link: "/javascript/javascript笔记/1-了解javascript",
+          },
+          {
+            text: "js高级程序设计笔记",
+            link: "/javascript/js高级程序设计笔记/1-什么是js",
           },
         ],
       },
@@ -93,26 +97,36 @@ export default defineConfig({
           ],
         },
       ],
-      "/javascript/": [
+      "/javascript": [
         {
-          text: "javascript",
+          text: "javascript笔记",
           collapsible: true,
           items: [
             {
               text: "了解javascript",
-              link: "/javascript/javascript第一步/1-了解javascript",
+              link: "/javascript/javascript笔记/1-了解javascript",
             },
-            { text: "变量", link: "/javascript/javascript第一步/2-变量" },
-            { text: "操作符", link: "/javascript/javascript第一步/3-操作符" },
-            { text: "字符串", link: "/javascript/javascript第一步/4-字符串" },
+            { text: "变量", link: "/javascript/javascript笔记/2-变量" },
+            { text: "操作符", link: "/javascript/javascript笔记/3-操作符" },
+            { text: "字符串", link: "/javascript/javascript笔记/4-字符串" },
             {
               text: "字符串方法",
-              link: "/javascript/javascript第一步/5-字符串方法",
+              link: "/javascript/javascript笔记/5-字符串方法",
             },
-            { text: "数组", link: "/javascript/javascript第一步/6-数组" },
+            { text: "数组", link: "/javascript/javascript笔记/6-数组" },
             {
               text: "数组方法",
-              link: "/javascript/javascript第一步/7-数组方法",
+              link: "/javascript/javascript笔记/7-数组方法",
+            },
+          ],
+        },
+        {
+          text: "js高级程序设计笔记",
+          collapsible: true,
+          items: [
+            {
+              text: "什么是js",
+              link: "/javascript/js高级程序设计笔记/1-什么是js",
             },
           ],
         },
@@ -139,6 +153,24 @@ export default defineConfig({
             {
               text: "获取手机号",
               link: "/框架与工具/微信小程序/1-获取手机号",
+            },
+            {
+              text: "双重循环",
+              link: "/框架与工具/微信小程序/2-双重循环",
+            },
+          ],
+        },
+        {
+          text: "vite+vue3+ts",
+          collapsible: true,
+          items: [
+            {
+              text: ".prettierrc.js配置",
+              link: "/框架与工具/vite+vue3+ts/1-.prettierrc.js配置",
+            },
+            {
+              text: ".eslintrc.cjs配置",
+              link: "/框架与工具/vite+vue3+ts/2-.eslintrc.cjs配置",
             },
           ],
         },
