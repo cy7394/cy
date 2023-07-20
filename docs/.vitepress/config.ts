@@ -127,6 +127,9 @@ export default defineConfig({
             {
               text: "什么是js",
               link: "/javascript/js高级程序设计笔记/1-什么是js",
+            }, {
+              text: "html中的js",
+              link: "/javascript/js高级程序设计笔记/2-html中的js",
             },
           ],
         },
