@@ -14,24 +14,31 @@ export default defineConfig({
       {
         text: "html",
         items: [
-          { text: "html介绍", link: "/html/html介绍/1-了解html" },
+          { text: "html标签", link: "/html/html标签/1-了解html" },
           {
-            text: "多媒体与嵌入",
-            link: "/html/多媒体与嵌入/1-多媒体",
+            text: "音频和iframe",
+            link: "/html/音频和iframe/1-图片和音频",
           },
-          { text: "html表格", link: "/html/html表格/1-表格" },
         ],
       },
       {
         text: "javascript",
         items: [
           {
-            text: "javascript笔记",
-            link: "/javascript/javascript笔记/1-了解javascript",
+            text: "了解javascript",
+            link: "/javascript/1-了解javascript",
           },
+          { text: "变量", link: "/javascript/2-变量" },
+          { text: "操作符", link: "/javascript/3-操作符" },
+          { text: "字符串", link: "/javascript/4-字符串" },
           {
-            text: "js高级程序设计笔记",
-            link: "/javascript/js高级程序设计笔记/1-什么是js",
+            text: "字符串方法",
+            link: "/javascript/5-字符串方法",
+          },
+          { text: "数组", link: "/javascript/6-数组" },
+          {
+            text: "数组方法",
+            link: "/javascript/7-数组方法",
           },
         ],
       },
@@ -48,6 +55,96 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "问题记录",
+        // link: "/问题记录/1-后端get请求返回的zip格式的文件",
+        items: [
+          {
+            text: "后端get请求返回的zip格式的文件",
+            link: "/问题记录/1-后端get请求返回的zip格式的文件",
+          },
+          {
+            text: "pre文字溢出样式",
+            link: "/问题记录/2-pre文字溢出样式",
+          },
+          {
+            text: "grid布局",
+            link: "/问题记录/3-grid布局",
+          },
+          {
+            text: "a标签新窗口打开",
+            link: "/问题记录/4-a标签新窗口打开",
+          },
+          {
+            text: "svg颜色、字体大小改不动的问题",
+            link: "/问题记录/5-svg颜色、字体大小改不动的问题",
+          },
+          {
+            text: "git commit --amend之后怎么编辑",
+            link: "/问题记录/6-git commit --amend之后怎么编辑",
+          },
+          {
+            text: "查看电脑桌面壁纸",
+            link: "/问题记录/7-查看电脑桌面壁纸",
+          },
+          {
+            text: "keydown和keyup的区别",
+            link: "/问题记录/8.keydown和keyup的区别",
+          },
+          {
+            text: "数组对象根据指定键值排序",
+            link: "/问题记录/9-数组对象根据指定键值排序",
+          },
+          {
+            text: "git分支重命名以及删除命令",
+            link: "/问题记录/10-git分支重命名以及删除命令",
+          },
+          {
+            text: "unbuntu 前端nginx部署",
+            link: "/问题记录/11-unbuntu前端nginx部署",
+          },
+          {
+            text: "scp上传不到服务器的问题",
+            link: "/问题记录/12-scp上传不到服务器的问题",
+          },
+          {
+            text: "前端播放声音",
+            link: "/问题记录/13-前端播放声音",
+          },
+          {
+            text: "记录前端跨域问题",
+            link: "/问题记录/14-记录前端跨域问题",
+          },
+          {
+            text: "信息对话框默认显示到最新消息",
+            link: "/问题记录/15-信息对话框默认显示到最新消息",
+          },
+          {
+            text: "聊天对话（webSocket）",
+            link: "/问题记录/16-聊天对话（webSocket）",
+          },
+          {
+            text: "前端用到麦克风http行不通",
+            link: "/问题记录/17-前端用到麦克风http行不通",
+          },
+          {
+            text: "摄像头视频实时显示",
+            link: "/问题记录/18-摄像头视频实时显示",
+          },
+          {
+            text: "切换git的origin数据源",
+            link: "/问题记录/19.切换git的origin数据源",
+          },
+          {
+            text: "vue3+vite判断生产环境和线上环境",
+            link: "/问题记录/20.vue3+vite判断生产环境和线上环境",
+          },
+          {
+            text: "服务器ip变化，前端如何写动态ip",
+            link: "/问题记录/21-服务器ip变化，前端如何写动态ip",
+          },
+        ],
+      },
     ],
     sidebar: {
       "/html": [
@@ -55,81 +152,61 @@ export default defineConfig({
           text: "html",
           collapsible: true,
           items: [
-            { text: "了解html", link: "/html/html介绍/1-了解html" },
-            { text: "head详解", link: "/html/html介绍/2-head详解" },
-            { text: "常用的html元素", link: "/html/html介绍/3-常用的html元素" },
-            { text: "超链接a元素", link: "/html/html介绍/4-超链接a元素" },
-            { text: "高阶文字排版", link: "/html/html介绍/5-高阶文字排版" },
-            { text: "文档与网站架构", link: "/html/html介绍/6-文档与网站架构" },
+            { text: "了解html", link: "/html/html标签/1-了解html" },
+            { text: "head详解", link: "/html/html标签/2-head详解" },
+            { text: "常用的html元素", link: "/html/html标签/3-常用的html元素" },
+            { text: "超链接a元素", link: "/html/html标签/4-超链接a元素" },
+            {
+              text: "高阶文字排版",
+              link: "/html/html标签/5-高阶文字排版",
+            },
+            { text: "表格", link: "/html/html标签/6-表格" },
+            { text: "文档与网站架构", link: "/html/html标签/7-文档与网站架构" },
           ],
         },
         {
-          text: "多媒体与嵌入",
+          text: "音频和iframe",
           collapsible: true,
           items: [
             {
-              text: "多媒体",
-              link: "/html/多媒体与嵌入/1-多媒体",
+              text: "图片和音频",
+              link: "/html/音频和iframe/1-图片和音频",
             },
             {
               text: "iframe",
-              link: "/html/多媒体与嵌入/2-iframe",
+              link: "/html/音频和iframe/2-iframe",
             },
             {
               text: "矢量图形",
-              link: "/html/多媒体与嵌入/3-矢量图形",
+              link: "/html/音频和iframe/3-矢量图形",
             },
             {
               text: "响应式图片",
-              link: "/html/多媒体与嵌入/4-响应式图片",
-            },
-          ],
-        },
-
-        {
-          text: "html表格",
-          collapsible: true,
-          items: [
-            {
-              text: "表格",
-              link: "/html/html表格/1-表格",
+              link: "/html/音频和iframe/4-响应式图片",
             },
           ],
         },
       ],
       "/javascript": [
         {
-          text: "javascript笔记",
+          text: "",
           collapsible: true,
           items: [
             {
               text: "了解javascript",
-              link: "/javascript/javascript笔记/1-了解javascript",
+              link: "/javascript/1-了解javascript",
             },
-            { text: "变量", link: "/javascript/javascript笔记/2-变量" },
-            { text: "操作符", link: "/javascript/javascript笔记/3-操作符" },
-            { text: "字符串", link: "/javascript/javascript笔记/4-字符串" },
+            { text: "变量", link: "/javascript/2-变量" },
+            { text: "操作符", link: "/javascript/3-操作符" },
+            { text: "字符串", link: "/javascript/4-字符串" },
             {
               text: "字符串方法",
-              link: "/javascript/javascript笔记/5-字符串方法",
+              link: "/javascript/5-字符串方法",
             },
-            { text: "数组", link: "/javascript/javascript笔记/6-数组" },
+            { text: "数组", link: "/javascript/6-数组" },
             {
               text: "数组方法",
-              link: "/javascript/javascript笔记/7-数组方法",
-            },
-          ],
-        },
-        {
-          text: "js高级程序设计笔记",
-          collapsible: true,
-          items: [
-            {
-              text: "什么是js",
-              link: "/javascript/js高级程序设计笔记/1-什么是js",
-            }, {
-              text: "html中的js",
-              link: "/javascript/js高级程序设计笔记/2-html中的js",
+              link: "/javascript/7-数组方法",
             },
           ],
         },
@@ -174,6 +251,97 @@ export default defineConfig({
             {
               text: ".eslintrc.cjs配置",
               link: "/框架与工具/vite+vue3+ts/2-.eslintrc.cjs配置",
+            },
+          ],
+        },
+      ],
+      "/问题记录/": [
+        {
+          text: "",
+          items: [
+            {
+              text: "后端get请求返回的zip格式的文件",
+              link: "/问题记录/1-后端get请求返回的zip格式的文件",
+            },
+            {
+              text: "pre文字溢出样式",
+              link: "/问题记录/2-pre文字溢出样式",
+            },
+            {
+              text: "grid布局",
+              link: "/问题记录/3-grid布局",
+            },
+            {
+              text: "a标签新窗口打开",
+              link: "/问题记录/4-a标签新窗口打开",
+            },
+            {
+              text: "svg颜色、字体大小改不动的问题",
+              link: "/问题记录/5-svg颜色、字体大小改不动的问题",
+            },
+            {
+              text: "git commit --amend之后怎么编辑",
+              link: "/问题记录/6-git commit --amend之后怎么编辑",
+            },
+            {
+              text: "查看电脑桌面壁纸",
+              link: "/问题记录/7-查看电脑桌面壁纸",
+            },
+            {
+              text: "keydown和keyup的区别",
+              link: "/问题记录/8.keydown和keyup的区别",
+            },
+            {
+              text: "数组对象根据指定键值排序",
+              link: "/问题记录/9-数组对象根据指定键值排序",
+            },
+            {
+              text: "git分支重命名以及删除命令",
+              link: "/问题记录/10-git分支重命名以及删除命令",
+            },
+            {
+              text: "unbuntu 前端nginx部署",
+              link: "/问题记录/11-unbuntu前端nginx部署",
+            },
+            {
+              text: "scp上传不到服务器的问题",
+              link: "/问题记录/12-scp上传不到服务器的问题",
+            },
+            {
+              text: "前端播放声音",
+              link: "/问题记录/13-前端播放声音",
+            },
+            {
+              text: "记录前端跨域问题",
+              link: "/问题记录/14-记录前端跨域问题",
+            },
+            {
+              text: "信息对话框默认显示到最新消息",
+              link: "/问题记录/15-信息对话框默认显示到最新消息",
+            },
+            {
+              text: "聊天对话（webSocket）",
+              link: "/问题记录/16-聊天对话（webSocket）",
+            },
+            {
+              text: "前端用到麦克风http行不通",
+              link: "/问题记录/17-前端用到麦克风http行不通",
+            },
+            {
+              text: "摄像头视频实时显示",
+              link: "/问题记录/18-摄像头视频实时显示",
+            },
+            {
+              text: "切换git的origin数据源",
+              link: "/问题记录/19.切换git的origin数据源",
+            },
+            {
+              text: "vue3+vite判断生产环境和线上环境",
+              link: "/问题记录/20.vue3+vite判断生产环境和线上环境",
+            },
+            {
+              text: "服务器ip变化，前端如何写动态ip",
+              link: "/问题记录/21-服务器ip变化，前端如何写动态ip",
             },
           ],
         },
