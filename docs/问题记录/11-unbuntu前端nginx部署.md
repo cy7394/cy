@@ -99,7 +99,9 @@ server {
 
 因为是 https，所以需要加入 以下圈红的三行：
 
-![image-20231008174540708](C:\Users\26857\AppData\Roaming\Typora\typora-user-images\image-20231008174540708.png)
+::: info
+<img src="./images/ssl.png" />
+:::
 
 八、检查写入的配置是否正确：
 
